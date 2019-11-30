@@ -1,0 +1,16 @@
+gdb -q (nome do arquivo)
+disas =  mostra o assembly
+
+p/x *(endereco do ponteiro) = mostra o valor em hexa
+
+objdump -dM intel (nome do arquivo) | less = mostra o assemby simples 
+
+puts("") = printf sem parametro
+
+condicao ternaria (modo difente de fazer um if) =
+
+(condicao) ? (comando) : (comando)
+
+exemplo= (a == 3 ) ? puts("3") : puts ("nao sei o valor de a")
+
+
